@@ -29,6 +29,7 @@ def find_extrema(s, bw='cv_ls'):
     prices = prices.reset_index()
     prices.columns = ['date', 'price']
     prices = prices['price']
+    print(s)
 
     kr = KernelReg(
         [prices.values],

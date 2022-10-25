@@ -17,7 +17,7 @@ def adding_all_candle_patterns(df,symbol,end_date,start_date, pips):
     return doj, engulfing, hammer ,three_sold, tweezers
 
 # def adding_all_chart_patterns(df,symbol,end,start,pips):
-    # chart_pat = ChartPat.ChartPatternRecognition(df[symbol],symbol,end,start,pips)
+    chart_pat = ChartPat.ChartPatternRecognition(df[symbol],symbol,end,start,pips)
     # flag = chart_pat.flag_pattern()
     # tent = chart_pat.tenet_usage()
     # triangles = chart_pat.triangle_patterns()
